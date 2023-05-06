@@ -8,7 +8,7 @@ CUDA: 10.2
 
 ## For test:
 ### 1. Data Prepareation  
-   To ensure high speed, save images and lables of each dataset with 'mat/npz' files. Only need to run '**data_preparation_example_for_koniq.py**' once for each dataset. Enhanced images and files for slection probability can be download from [Enhanced images](https://pan.baidu.com/s/1vSeiH61x5TD5VIRn8NKOVw?pwd=wz98). Please download these files and put them into the same folder of code.
+   To ensure high speed, save images and lables of each dataset with 'mat/npz' files. Only need to run '**data_preparation_example_for_koniq.py**' once for each dataset. Enhanced images and files for slection probability can be download from: [Enhanced images](https://pan.baidu.com/s/1vSeiH61x5TD5VIRn8NKOVw?pwd=wz98). Please download these files and put them into the same folder of code.
    
 ### 2. Load pre-trained weight for test  
    The models pre-trained on KonIQ-10k, SPAQ, LIVEW, RBID, CID2013 are released. The dataset are randomly splitted several times during training, and each released model is obtained from one split. The model file '**my_vision_transformer.py**' is modified from open accessed source code of [DEIT](https://github.com/facebookresearch/deit) and [TIMM](https://github.com/huggingface/pytorch-image-models/tree/main/timm). 
@@ -23,14 +23,14 @@ The training code can be available at the 'training' folder.
 ## If you like this work, please cite:
 
 {   
-      author={Song, Tianshu and Li, Leida and Chen, Pengfei and Liu, Hantao and Qian, Jiansheng},
-      journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-      title={Blind Image Quality Assessment for Authentic Distortions by Intermediary Enhancement and Iterative Training}, 
-      year={2022},
-      volume={32},
-      number={11},
-      pages={7592-7604},
-      doi={10.1109/TCSVT.2022.3179744}
+      author={Song, Tianshu and Li, Leida and Chen, Pengfei and Liu, Hantao and Qian, Jiansheng},  
+      journal={IEEE Transactions on Circuits and Systems for Video Technology},   
+      title={Blind Image Quality Assessment for Authentic Distortions by Intermediary Enhancement and Iterative Training},   
+      year={2022},  
+      volume={32},  
+      number={11},  
+      pages={7592-7604},  
+      doi={10.1109/TCSVT.2022.3179744}  
   }
   
 ## License

@@ -3,7 +3,7 @@ This is the training example of IEIT on the LIVEW dataset, which is small enough
 
 ## 1. Data Prepareation
 
-   To ensure high speed, save training images and lables, enhanced images, probability for image selection into 'mat/npz' files. The preparation process please refer to the published paper [KG-IQA](https://ieeexplore.ieee.org/document/10003665). The necessary 'mat/npz' files can be downloaded from [Trainng files](https://pan.baidu.com/s/1EerM_rvNVo8Eevw74p3TNQ?pwd=z3oh). Please download these files and put them into the same folder of the training code.
+   To ensure high speed, save training images and lables, enhanced images, probability for image selection into 'mat/npz' files. The preparation process please refer to the published paper [IEIT](https://ieeexplore.ieee.org/document/9786803). Please run '**data_preparation_example_for_livew.py**' to save the training images and labels, and other necessary files can be downloaded from [Trainng files](https://pan.baidu.com/s/1U6qud1v-uIqKIZgRYsZTaA?pwd=4o37). Please download these files and put them into the same folder of the training code.
    
 ## 2. Training the model
 

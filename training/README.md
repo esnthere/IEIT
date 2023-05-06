@@ -7,7 +7,10 @@ This is the training example of IEIT on the LIVEW dataset, which is small enough
    
 ## 2. Training the model
 
-   Please run '**example_of_first_training_stage_on_livew.py**' to performe the first stage training.  Then, run '**example_of_second_training_stage_on_livew.py**' to performe the second stage training. The training example of the first and second stage can be seen from '**run example_of_first_training_stage_on_livew.ipynb**' and '**run example_of_second_training_stage_on_livew.ipynb**', respectively. The pre-trained weight and model file '**my_vision_transformer.py**' is modified from open accessed source code of [DEIT](https://github.com/facebookresearch/deit) and [TIMM](https://github.com/huggingface/pytorch-image-models/tree/main/timm). 
+   Please run '**example_of_first_training_stage_on_livew.py**' to performe the first stage training.    
+   Then, run '**example_of_second_training_stage_on_livew.py**' to performe the second stage training.  
+   The training example of the first and second stage can be seen from '**run example_of_first_training_stage_on_livew.ipynb**' and '**run example_of_second_training_stage_on_livew.ipynb**', respectively.  
+   The pre-trained weight and model file '**my_vision_transformer.py**' is modified from open accessed source code of [DEIT](https://github.com/facebookresearch/deit) and [TIMM](https://github.com/huggingface/pytorch-image-models/tree/main/timm). 
 
 ## If you like this work, please cite:
 

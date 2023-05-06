@@ -11,9 +11,9 @@ CUDA: 10.2
    To ensure high speed, save images and lables of each dataset with 'mat/npz' files. Only need to run '**data_preparation_example_for_koniq.py**' once for each dataset. Enhanced images and files for slection probability can be download from [Enhanced images](https://pan.baidu.com/s/1vSeiH61x5TD5VIRn8NKOVw?pwd=wz98). Please download these files and put them into the same folder of code.
    
 ### 2. Load pre-trained weight for test  
-   The models pre-trained on KonIQ-10k with 5%, 10%, 25%, 80% samples are released. The dataset are randomly splitted several times during training, and each released model is obtained from the first split (numpy. random. seed(1)). The model file '**my_vision_transformer.py**' is modified from open accessed source code of [DEIT](https://github.com/facebookresearch/deit) and [TIMM](https://github.com/huggingface/pytorch-image-models/tree/main/timm). 
+   The models pre-trained on KonIQ-10k, SPAQ, LIVEW, RBID, CID2013 are released. The dataset are randomly splitted several times during training, and each released model is obtained from one split. The model file '**my_vision_transformer.py**' is modified from open accessed source code of [DEIT](https://github.com/facebookresearch/deit) and [TIMM](https://github.com/huggingface/pytorch-image-models/tree/main/timm). 
    
-   The pre-trained models can be downloaded from: [Pre-trained models](https://pan.baidu.com/s/1IoGWFXKSi-ljYaWB6mOeaw?pwd=f4wv ). Please download these files and put them in the same folder of code and then run '**test_example_koniq_*n*percent.py**' to make intra/cross dataset test for models trained on *n%* samples.
+   The pre-trained models can be downloaded from: [Pre-trained models](https://pan.baidu.com/s/1IoGWFXKSi-ljYaWB6mOeaw?pwd=f4wv ). Please download these files and put them in the same folder of code and then run '**test_example_of_*dataset*.py**' to test models trained on the *dataset*. You can make both cross-dataset and intra-dataset of the model trained on KonIQ-10k.
    
    
 ## For train:  

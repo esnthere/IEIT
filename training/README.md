@@ -1,7 +1,7 @@
 # Training Code for IEIT: Blind Image Quality Assessment for Authentic Distortions by Intermediary Enhancement and Iterative Training
 This is the training example of IEIT on the LIVEW dataset, which is small enough to re-train. The trainning process is the same for other datasets:
 
-## 1. Data Prepareation
+## 1. Data preparation
 
    To ensure high speed, save training images and lables, enhanced images, probability for image selection into 'mat/npz' files. The preparation process please refer to the published paper [IEIT](https://ieeexplore.ieee.org/document/9786803). Please run '**data_preparation_example_for_livew.py**' to save the training images and labels, and other necessary files can be downloaded from [Trainng files](https://pan.baidu.com/s/1U6qud1v-uIqKIZgRYsZTaA?pwd=4o37). Please download these files and put them into the same folder of the training code.
    

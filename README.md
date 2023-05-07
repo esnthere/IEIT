@@ -7,7 +7,7 @@ timm: 0.3.2
 CUDA: 10.2  
 
 ## For test:
-### 1. Data Prepareation  
+### 1. Data preparation  
    To ensure high speed, save images and lables of each dataset with 'mat/npz' files. Only need to run '**data_preparation_example_for_koniq.py**' once for each dataset. Enhanced images and files for slection probability can be download from: [Enhanced images](https://pan.baidu.com/s/1vSeiH61x5TD5VIRn8NKOVw?pwd=wz98). Please download these files and put them into the same folder of code.
    
 ### 2. Load pre-trained weight for test  

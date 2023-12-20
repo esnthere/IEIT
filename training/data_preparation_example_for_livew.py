@@ -48,4 +48,3 @@ for i in np.arange(0, num):
 
 sio.savemat('livew_244.mat', {'X': imgs_all[ind_train], 'Y': mos[ind_train], 'Xtest': imgs_all[ind_test], 'Ytest': mos[ind_test]})
 
-
